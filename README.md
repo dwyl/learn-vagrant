@@ -1,6 +1,11 @@
+![Vagrant Logo](http://i.imgur.com/W65dAcT.png)
+
+Vagrant lets you 
 
 
-> Watch: http://build-podcast.com/vagrant/
+## Download & Install
+
+http://www.vagrantup.com/downloads.html
 
 Create our base Ubuntu Box:
 
@@ -45,6 +50,7 @@ ls -lath
 
 ## Useful Links
 
+- Background: http://dobsondev.com/vagrant-development-environment
 - What is Vagrant? http://code.tutsplus.com/tutorials/vagrant-what-why-and-how--net-26500
 - List of Vagrant Boxes: http://www.vagrantbox.es
 
@@ -54,9 +60,13 @@ ls -lath
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
 - https://github.com/joyent/node/wiki/installing-node.js-via-package-manager
 
+- nvm in vagrant: https://github.com/robertkowalski/vagrant-nvm
+
+- Install node.js via package manager: https://github.com/joyent/node/wiki/installing-node.js-via-package-manager
+
 ### Tutorials
 
-- Build Podcast
+- Build Podcast Vagrant Ep: http://build-podcast.com/vagrant/
 - http://scotch.io/tutorials/get-vagrant-up-and-running-in-no-time
 
 - [Puphet](https://puphpet.com/) is a GUI for creating
@@ -66,3 +76,4 @@ Vagrant boxes: https://puphpet.com/
 
 - http://www.scriptrock.com/articles/docker-vs-vagrant
 - http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-io-for-creating-an-isolated-environment
+- http://dahlgren.so/software/2014/05/11/From-Vagrant-To-Docker/

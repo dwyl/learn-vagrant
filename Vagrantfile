@@ -1,13 +1,18 @@
 $script = <<SCRIPT
-apt-get update
-apt-get install -y node nodejs npm git
-# install nvm (node version manager)
-curl https://raw.githubusercontent.com/creationix/nvm/v0.15.0/install.sh | bash
-source ~/.profile
-nvm install v0.10.31
+
+# apt-get update
+# node nodejs npm curl
+apt-get install -y git git-core
+
+# https://github.com/joyent/node/wiki/installing-node.js-via-package-manager
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+
+sudo apt-get install nodejs
+
 # git clone https://github.com/nelsonic/ac.git
 # cd ac
 # npm start
+
 SCRIPT
 
 
