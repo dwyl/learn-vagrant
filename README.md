@@ -9,13 +9,14 @@ Never have to worry about which version(s) your colleagues have on their machine
 
 ![Windows Mac Linux](http://i.imgur.com/FONmZxp.png)
 
-**YES!** You can run vagrant on the most popular operating systems;
+**YES!** You can run vagrant on the most popular operating systems; <br />
 Microsoft Windows, Mac and Linux (most distros).
 
 <br />
 
+# Up & Running in Three Easy Steps
 
-## 1. Download & Install
+## 1. Download & Install Vagrant
 
 First thing you need to do is install the vagrant
 
@@ -37,12 +38,11 @@ vagrant up
   depending on your internet connection)
 
 
-
-
 SSH (login) to the Vagrant Box:
 ```
 vagrant ssh
 ```
+
 
 <br /><br />
 

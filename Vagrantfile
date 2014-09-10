@@ -1,19 +1,17 @@
 # detailed instructions for installing
 $script = <<SCRIPT
 
-# apt-get update
-# node nodejs npm curl
-apt-get install -y git git-core
-sudo apt-get install -y g++
-
 # https://github.com/joyent/node/wiki/installing-node.js-via-package-manager
-curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo add-apt-repository ppa:chris-lea/node.js
 
-sudo apt-get -y install nodejs
+# update ubuntu (security etc.)
+apt-get update
+
+sudo apt-get -y install g++ git git-core nodejs
 
 git clone https://github.com/nelsonic/ac.git && cd ac
 npm instal
-npm start
+# npm start
 
 SCRIPT
 
