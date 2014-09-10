@@ -9,8 +9,9 @@ apt-get update
 
 sudo apt-get -y install g++ git git-core nodejs
 
-git clone https://github.com/nelsonic/ac.git && cd ac
-npm instal
+## Uncomment the following lines to test everything is working:
+# git clone https://github.com/nelsonic/ac.git && cd ac
+# npm instal
 # npm start
 
 SCRIPT
