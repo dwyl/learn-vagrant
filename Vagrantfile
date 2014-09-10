@@ -9,10 +9,13 @@ apt-get update
 
 sudo apt-get -y install g++ git git-core nodejs
 
-## Uncomment the following lines to test everything is working:
+
+## Uncomment the following lines to test everything is working
+## with a simple node.js app
 # git clone https://github.com/nelsonic/ac.git && cd ac
 # npm instal
 # npm start
+# now visit: localhost:3000 in your browser and type a word in the field!
 
 SCRIPT
 
