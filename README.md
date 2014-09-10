@@ -1,11 +1,52 @@
 ![Vagrant Logo](http://i.imgur.com/W65dAcT.png)
 
-Vagrant lets you 
+Vagrant lets you *easily* package a development environment and share
+it with anyone. <br />
+This means you can *consistently* set up a new machine with only a few commands. <br />
+Never have to worry about which version(s) your colleagues have on their machine.
+
+## Can I Run it?
+
+![Windows Mac Linux](http://i.imgur.com/FONmZxp.png)
+
+**YES!** You can run vagrant on the most popular operating systems;
+Microsoft Windows, Mac and Linux (most distros).
+
+
 
 
 ## Download & Install
 
-http://www.vagrantup.com/downloads.html
+> http://www.vagrantup.com/downloads.html
+
+## Clone this repository
+
+
+
+## Boot Ubuntu (installs latest Node.js)
+
+Boot the Vagrant Box:
+```sh
+vagrant up
+```
+
+SSH (login) to the Vagrant Box:
+```
+vagrant ssh
+```
+
+## Shut down the Vagrant Box
+
+
+## Need to *Kill* it?
+
+```
+vagrant destroy
+```
+
+
+
+## More Detailed Instructions
 
 Create our base Ubuntu Box:
 
@@ -22,29 +63,6 @@ you should see:
     box: Downloading: https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
 ==> box: Successfully added box 'base' (v0) for 'virtualbox'!
 ```
-
-Boot the Vagrant Box:
-```sh
-vagrant up
-```
-
-SSH (login) to the Vagrant Box:
-```
-vagrant ssh
-```
-
-Once you have logged into the Box, change into the /vagrant directory
-
-```
-cd /vagrant
-```
-
-List all the files in the **/vagrant** directory:
-```
-ls -lath
-```
-
-
 
 
 
@@ -77,3 +95,8 @@ Vagrant boxes: https://puphpet.com/
 - http://www.scriptrock.com/articles/docker-vs-vagrant
 - http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-io-for-creating-an-isolated-environment
 - http://dahlgren.so/software/2014/05/11/From-Vagrant-To-Docker/
+
+## Thanks
+
+- Joaquim Serafim for encouraging me to learn/use Vagrant
+see: https://github.com/joaquimserafim/vagrant-nodejs-redis-mongodb
