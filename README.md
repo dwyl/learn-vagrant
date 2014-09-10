@@ -5,37 +5,54 @@ it with anyone. <br />
 This means you can *consistently* set up a new machine with only a few commands. <br />
 Never have to worry about which version(s) your colleagues have on their machine.
 
-## Can I Run it?
+## Will it work for me...?
 
 ![Windows Mac Linux](http://i.imgur.com/FONmZxp.png)
 
 **YES!** You can run vagrant on the most popular operating systems;
 Microsoft Windows, Mac and Linux (most distros).
 
+<br />
 
 
+## 1. Download & Install
 
-## Download & Install
+First thing you need to do is install the vagrant
 
 > http://www.vagrantup.com/downloads.html
 
-## Clone this repository
+## 2. Clone this repository
 
+```
+git clone https://github.com/nelsonic/learn-vagrant.git && cd learn-vagrant
+```
 
-
-## Boot Ubuntu (installs latest Node.js)
+## 3. Boot Ubuntu (installs latest Node.js)
 
 Boot the Vagrant Box:
 ```sh
 vagrant up
 ```
+(this will install ubuntu and node.js so may take a few minutes -
+  depending on your internet connection)
+
+
+
 
 SSH (login) to the Vagrant Box:
 ```
 vagrant ssh
 ```
 
-## Shut down the Vagrant Box
+<br /><br />
+
+## Other useful commands
+
+### Shut down the Vagrant Box
+
+```
+vagrant halt
+```
 
 
 ## Need to *Kill* it?
@@ -74,13 +91,11 @@ you should see:
 
 > I'm using: https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
 
-- Install Node.js on Unbunt:
-https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
-- https://github.com/joyent/node/wiki/installing-node.js-via-package-manager
 
-- nvm in vagrant: https://github.com/robertkowalski/vagrant-nvm
-
-- Install node.js via package manager: https://github.com/joyent/node/wiki/installing-node.js-via-package-manager
+Install Node.js on Unbunt:
+- ***Official***: https://github.com/joyent/node/wiki/installing-node.js-via-package-manager
+- https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
+- ~~nvm in vagrant: https://github.com/robertkowalski/vagrant-nvm~~
 
 ### Tutorials
 
@@ -90,13 +105,14 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ub
 - [Puphet](https://puphpet.com/) is a GUI for creating
 Vagrant boxes: https://puphpet.com/
 
-## Docker vs. Vagrant
+### Docker vs. Vagrant
 
 - http://www.scriptrock.com/articles/docker-vs-vagrant
 - http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-io-for-creating-an-isolated-environment
 - http://dahlgren.so/software/2014/05/11/From-Vagrant-To-Docker/
 
-## Thanks
+### Inspiration
 
-- Joaquim Serafim for encouraging me to learn/use Vagrant
+- Special Thanks to [Joaquim Serafim](https://github.com/joaquimserafim)
+for encouraging me to learn/use Vagrant
 see: https://github.com/joaquimserafim/vagrant-nodejs-redis-mongodb
