@@ -80,6 +80,14 @@ to exit simply type `exit` in the terminal:
 exit
 ```
 
+## Windows Only
+
+Because windows does not come with an SSH client you will need to
+install one.
+
+# Todo
+> - [ ] investigate best way to enable ssh on windows!
+
 
 <br /><br />
 
