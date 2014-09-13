@@ -5,7 +5,7 @@ $script = <<SCRIPT
 apt-get update
 
 # nodejs
-sudo apt-get -y install g++ git git-core npm
+sudo apt-get -y install g++ git git-core nodejs npm
 
 # use https://github.com/visionmedia/n to get latest node+npm
 sudo npm install n -g

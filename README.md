@@ -203,12 +203,14 @@ to boot a fully-functional development machine using a single
 - http://dahlgren.so/software/2014/05/11/From-Vagrant-To-Docker/
 
 
-
 # *Next*
 
 > Vagrant on Digital Ocean / AWS ?
 
 > - [ ] https://docs.vagrantup.com/v2/docker/basics.html
+> - [ ] http://docs.vagrantup.com/v2/provisioning/docker.html
+> - [ ] http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-io-for-creating-an-isolated-environment
+> - [ ] http://dahlgren.so/software/2014/05/11/From-Vagrant-To-Docker/
 
 ### Inspiration / Thanks
 
