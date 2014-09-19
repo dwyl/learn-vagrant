@@ -87,7 +87,8 @@ install one.
 
 # Todo
 > - [ ] investigate best way to enable ssh on windows!
-
+> - [ ] http://docs-v1.vagrantup.com/v1/docs/getting-started/ssh.html
+> - [ ] http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows
 
 <br /><br />
 
