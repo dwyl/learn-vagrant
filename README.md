@@ -63,7 +63,7 @@ This means that you will now have **the only file you need in your directory to 
 The one in _this_ repository updates Ubuntu, installs Node.js, updates it and prints out the version. There is also commented out code there that would have installed MongoDB and run some tests. If you're setting up your own configuration, copying this file would be a good place to start!
 
 
-_Windows users will also need a `vagrantfile_ssh.txt` file._
+_Windows users will also need a `vagrantfile_ssh.txt` file - in the `windows-only` directory of this repository._
 
 
 ## 3. Boot Ubuntu (installs latest Node.js)
