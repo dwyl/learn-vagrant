@@ -58,6 +58,13 @@ and Vagrant:
 ```
 git clone https://github.com/nelsonic/learn-vagrant.git && cd learn-vagrant
 ```
+This means that you will now have **the only file you need in your directory to get Vagrant up and running**: the [Vagrantfile](https://github.com/docdis/learn-vagrant/blob/master/Vagrantfile). This file adds the configuration you need to the vagrant box.
+
+The one in _this_ repository updates Ubuntu, installs Node.js, updates it and prints out the version. There is also commented out code there that would have installed MongoDB and run some tests. If you're setting up your own configuration, copying this file would be a good place to start!
+
+
+_Windows users will also need a `vagrantfile_ssh.txt` file._
+
 
 ## 3. Boot Ubuntu (installs latest Node.js)
 
@@ -68,6 +75,8 @@ vagrant up
 (this will install ubuntu and node.js so may take a few minutes -
   depending on your internet connection)
 
+Anything you do within the directory you're currently in will now take place exclusively in your Vagrant environment.
+
 ### Login and Explore
 
 SSH (login) to the Vagrant Box:
@@ -75,7 +84,7 @@ SSH (login) to the Vagrant Box:
 vagrant ssh
 ```
 
-to exit simply type `exit` in the terminal:
+to exit simply type `exit` in the terminal (this logs you out but Vagrant will still be running):
 ```
 exit
 ```
@@ -99,14 +108,14 @@ install one.
 ```
 vagrant halt
 ```
-This will shut down while preserving the state of the machine.
+This will shut down while preserving the state of the machine, much like hitting the 'pause' button.
 
-## Need to *Kill* it?
+### Need to *Kill* it?
 
 ```
 vagrant destroy
 ```
-
+This will stop the machine altogether and you will no longer be operating within Vagrant in the directory.
 
 
 ## More Detailed Instructions
@@ -126,7 +135,7 @@ you should see:
     box: Downloading: https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
 ==> box: Successfully added box 'base' (v0) for 'virtualbox'!
 ```
-
+This will be useful if you want to install the **box** globally so that you don't have to download and install it through the Vagrantfile every time you run `vagrant up`.
 <br />
 ---
 <br />
