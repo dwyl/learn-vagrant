@@ -173,8 +173,8 @@ Install Node.js on Unbunt:
 
 For better or worse, people still use different operating systems
 for their development machines. While many have made the switch to
-Mac or Ubuntu most people are still developing on Windows.
-Using vagrant as a VM to run your production OS locally means you
+Mac or Ubuntu, most people are still developing on Windows.
+Using vagrant as a VM to run your production OS locally means you can keep everything consistent everywhere, regardless of your local OS.
 
 ### How did we get here?
 
